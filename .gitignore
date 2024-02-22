@@ -14,6 +14,7 @@ buildNumber.properties
 # VoteAnalyzer
 res/data-1572M.xml
 .idea/
+lib/*
 *.iml
 .DS_Store
 Thumbs.db
