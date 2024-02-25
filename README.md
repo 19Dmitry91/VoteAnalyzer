@@ -16,13 +16,10 @@ vote-analyzer — это Java приложение для анализа и об
 1. Клонируйте репозиторий на локальную машину:
    ```bash
    git clone https://github.com/19Dmitry91/vote-analyzer
+   cd VoteAnalyzer
 
-Перейдите в директорию проекта:
-bash
-Copy code
-cd VoteAnalyzer
+
 Откройте файл DBConnection.java и настройте параметры подключения к вашей базе данных в переменных URL, USER и PASSWORD.
 Запустите программу:
-bash
-Copy code
-java -jar VoteAnalyzer.jar
+   ```bash
+   java -jar VoteAnalyzer.jar
