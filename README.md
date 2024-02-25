@@ -16,10 +16,16 @@ vote-analyzer — это Java приложение для анализа и об
 1. Клонируйте репозиторий на локальную машину:
    ```bash
    git clone https://github.com/19Dmitry91/vote-analyzer
+2. Перейдите в директорию проекта:
+   ```bash
    cd VoteAnalyzer
 
 
-Откройте файл DBConnection.java и настройте параметры подключения к вашей базе данных в переменных URL, USER и PASSWORD.
-Запустите программу:
+3. Откройте файл DBConnection.java и настройте параметры подключения к вашей базе данных в переменных URL, USER и PASSWORD.
+   Запустите программу:
    ```bash
    java -jar VoteAnalyzer.jar
+
+4. Конфигурация
+   Для изменения пути к анализируемому XML файлу отредактируйте переменную FILE_NAME в классе Loader.
+
